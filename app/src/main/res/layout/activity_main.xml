@@ -20,10 +20,13 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/inpName"
             />
     </LinearLayout>
 
     <LinearLayout
+        android:layout_marginRight="15px"
+        android:layout_marginLeft="30px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -38,6 +41,8 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_marginRight="15px"
+        android:layout_marginLeft="30px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
