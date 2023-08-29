@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         with(binding){
             btnTest1.setOnClickListener {
-                Toast.makeText(this@MainActivity, "Hello, welcome " + binding.inpName.text +"!", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@MainActivity, "Hello, welcome " + binding.inpName.text +" !", Toast.LENGTH_LONG).show()
             }
         }
 
